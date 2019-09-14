@@ -1,0 +1,42 @@
+{
+  "name": "@pomofficial/axios",
+  "version": "0.0.0",
+  "description": "Pomegranate Axios plugin.",
+  "main": "index.js",
+  "files": [
+    "index.d.ts",
+    "index.js.map",
+    "Plugins/**/*",
+    "Readme.md",
+    "LICENCE"
+  ],
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Pomegranate",
+    "Axios",
+    "HTTP"
+  ],
+  "author": "Jim Bulkowski <jim.b@paperelectron.com> (http://paperelectron.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@pomegranate/plugin-tools": "^2.0.7",
+    "axios": "^0.19.0",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.123",
+    "@types/node": "^12.7.5",
+    "typescript": "^3.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PomOfficial/Axios.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PomOfficial/Axios/issues"
+  },
+  "homepage": "https://github.com/PomOfficial/Axios#readme"
+}
