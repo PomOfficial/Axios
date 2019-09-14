@@ -1,6 +1,6 @@
 {
   "name": "@pomofficial/axios",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Pomegranate Axios plugin.",
   "main": "index.js",
   "files": [
